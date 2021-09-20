@@ -1,0 +1,18 @@
+{
+	"exp_file" : "exps/default/yolox_s.py",
+	"ckpt" : "weights/yolox_s.pth",
+	"source" : "frontend/static/images",
+ 	"conf" : 0.5,
+    "nms" : 0.40,
+    "tsize" : 640,
+    "device" : "gpu",
+	"fp16" : true,
+	"fuse" : true,
+	"demo" : "image",
+    "name" : null,
+    "camid" : 0,
+    "experiment_name" : null,
+    "save_result" : true,
+    "trt" : false,
+	"legacy" : false
+}
